@@ -76,18 +76,18 @@
 
 // fetchData();
 
-// // Q7 - Nested object representing a person with optional chaining
-// const person = {
-//     name: 'John Doe',
-//     address: {
-//         city: 'New York',
-//         country: 'USA'
-//     }
-// };
+// Q7 - Nested object representing a person with optional chaining
+const person = {
+    name: 'John Doe',
+    address: {
+        city: 'New York',
+        country: 'USA'
+    }
+};
 
-// // Safely accessing phone number even if contact property is missing
-// const phoneNumber = person.contact?.phone;
-// console.log(phoneNumber);
+// Safely accessing phone number even if contact property is missing
+const phoneNumber = person.contact?.phone;
+console.log(phoneNumber);
 
 
 
